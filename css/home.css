@@ -26,12 +26,32 @@ div.card.mb-3{
 div.card-header{
     font-size: 2.5rem;
 }
+img.card-img-left.teacherPhoto{
+    width: 30%;
+    height: 15rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+div.card-body-right{
+    width: 67%;
+    margin-left: 33%;
+    margin-top: -15rem;
+    height: 15rem;
+}
 h5.card-title{
     font-size: 2.3rem;
 }
 p.card-text{
     font-size: 2rem;
 }
+ul.list-group.list-group-flush.teacherNameNTime{
+    margin-top: 1rem;
+}
+span.teachTime{
+    float: right;
+}
+
 div.pTitle{
     margin-bottom: 2rem;
     margin-top: 2rem;
