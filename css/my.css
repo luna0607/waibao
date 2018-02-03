@@ -27,3 +27,9 @@ div.myHeadBody p{
     vertical-align: bottom;
     color: gray;
 }
+div.myFunctionTable{
+    font-size: 3rem;
+    line-height: 8rem;
+    margin-top: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.25rem lightgrey;
+}
