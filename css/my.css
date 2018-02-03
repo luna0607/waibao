@@ -33,3 +33,10 @@ div.myFunctionTable{
     margin-top: 2rem;
     box-shadow: 0.5rem 0.5rem 0.25rem lightgrey;
 }
+img.myIcon{
+    width: 6rem;
+    margin-left: 2rem;
+}
+div.myFunctionTable table tbody tr th{
+    width: 15rem;
+}
