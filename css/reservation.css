@@ -8,7 +8,7 @@ div.column{
 }
 div.columnList{
 	width:100%;
-	height:295px;
+	height:35rem;
 	padding:0 10% 0 10%;
 }
 a.list-group-item{
@@ -17,18 +17,71 @@ a.list-group-item{
 div.title{
 	height:2.5rem;
 	width:12.28%;
-	margin:0 1% 0 1%;
+	margin:0 0.9% 0 0.9%;
 	float:left;
-	padding:0.2rem 0 0.2rem 0;
+	padding:0.6rem 0 0.6rem 0;
 	text-align:center;
 }
 div.titleBar{
-	background-color:#cfcfcf;
-	margin:0 11% 0 11%;
+	background-color:#f2f2f2;
+	margin:0 11% 1% 11%;
 	width:78%;
-	height:2rem;
+	height:7rem;
 	border-radius:0.2rem;
+	font-size:2rem;
 }
 div.title a{
 	color:#000000;
+}
+div.gap{
+	background: black;
+	height:65%;
+	width:0.1rem;
+	float:left;
+	margin:1.5rem 0 0 0;
+}
+div.info{
+	border:solid;
+    margin: 5% 11% 5% 11%;
+    width: 78%;
+    height: 20rem;
+    border-radius: 0.2rem;
+}
+div.image{
+	height:20rem;
+	width:15rem;
+	float:left;
+	padding:2rem 2rem 2rem 2rem;
+}
+div.gap1{
+	background-color: gray;
+	height:15rem;
+	width:0.2rem;
+	margin: 2.5rem 0 0 15rem;
+}
+div.name{
+	margin:-14rem 0 0 15rem;
+	text-align:center
+}
+div.price{
+	margin:0 0 0 15rem;
+	text-align:center;
+	width:20rem;
+}
+button.button{
+	margin:-8rem 0 0 19rem;
+	width: 10rem;
+	height: 3rem;
+	font-size: 1.5rem;
+}
+ul.list-group{
+	font-size:2rem;
+}
+ul.selected{
+	width:80%;
+	margin:2rem 10% 0 10%;
+}
+img.delete{
+	width: 3rem;
+    margin: 0 0 0 43rem;
 }

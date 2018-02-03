@@ -5,35 +5,60 @@
 <title>reservation</title>
 </head>
 <body>
+<div style="overflow:scroll;height:90rem">
+	<div class="info">
+		<div class="image">
+			<img src="image/harden.jpg" style="height:100%;width:100%"/>
+		</div>
+		<div class="gap1"></div>
+		<div class="name">
+			<p style="font-size:4rem">James Hardon</p>
+		</div>
+		<div class="price">
+			<p style="font-size:3rem">1.5课卡/节</p>
+		</div>
+		<button type="button" class="button btn btn-info">learn more</button>
+	</div>
 	<div class="titleBar">
 		<div class="title">
 			<a href="#">周六 2/3</a>
 		</div>
+		<div class="gap">
+		</div>
 		<div class="title">
-			<a href="#">周日 2/4</a>
+			<a href="#" style="color:red">周日 2/4</a>
+		</div>
+		<div class="gap">
 		</div>
 		<div class="title">
 			<a href="#">周一 2/5</a>
 		</div>
+		<div class="gap">
+		</div>
 		<div class="title">
 			<a href="#">周二 2/6</a>
+		</div>
+		<div class="gap">
 		</div>
 		<div class="title">
 			<a href="#">周三 2/7</a>
 		</div>
+		<div class="gap">
+		</div>
 		<div class="title">
 			<a href="#">周四 2/8</a>
+		</div>
+		<div class="gap">
 		</div>
 		<div class="title">
 			<a href="#">周五 2/9</a>
 		</div>
 	</div>
 	<div class="columnList">
-		
 		<div class="column">
 			<ul class="list-group">
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-warning">07:00~10:00</a>
+					class="list-group-item list-group-item-action list-group-item-warning">07:00<br>~<br>10:00</a>
 				<a href="#"
 					class="list-group-item list-group-item-action list-group-item-primary">07:00</a>
 				<a href="#"
@@ -49,15 +74,15 @@
 		<div class="column">
 			<ul class="list-group">
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-warning">10:00~13:00</a>
+					class="list-group-item list-group-item-action list-group-item-warning">10:00<br>~<br>13:00</a>
 				<a href="#"
 					class="list-group-item list-group-item-action list-group-item-primary">10:20</a>
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-primary">11:00</a>
+					class="list-group-item list-group-item-action list-group-item-secondary">11:00</a>
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-primary">11:40</a>
+					class="list-group-item list-group-item-action list-group-item-secondary">11:40</a>
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-primary">12:20</a>
+					class="list-group-item list-group-item-action list-group-item-secondary">12:20</a>
 				<a href="#"
 					class="list-group-item list-group-item-action list-group-item-primary">13:00</a>
 			</ul>
@@ -65,7 +90,7 @@
 		<div class="column">
 			<ul class="list-group">
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-warning">13:00~17:00</a>
+					class="list-group-item list-group-item-action list-group-item-warning">13:00<br>~<br>17:00</a>
 				<a href="#"
 					class="list-group-item list-group-item-action list-group-item-primary">13:40</a>
 				<a href="#"
@@ -81,15 +106,15 @@
 		<div class="column">
 			<ul class="list-group">
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-warning">17:00~20:00</a>
+					class="list-group-item list-group-item-action list-group-item-warning">17:00<br>~<br>20:00</a>
 				<a href="#"
 					class="list-group-item list-group-item-action list-group-item-primary">17:00</a>
 				<a href="#"
 					class="list-group-item list-group-item-action list-group-item-primary">17:40</a>
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-primary">18:20</a>
+					class="list-group-item list-group-item-action list-group-item-danger">18:20</a>
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-primary">19:00</a>
+					class="list-group-item list-group-item-action list-group-item-danger">19:00</a>
 				<a href="#"
 					class="list-group-item list-group-item-action list-group-item-primary">19:40</a>
 			</ul>
@@ -97,7 +122,7 @@
 		<div class="column">
 			<ul class="list-group">
 				<a href="#"
-					class="list-group-item list-group-item-action list-group-item-warning">20:00~23:00</a>
+					class="list-group-item list-group-item-action list-group-item-warning">20:00<br>~<br>23:00</a>
 				<a href="#"
 					class="list-group-item list-group-item-action list-group-item-primary">20:20</a>
 				<a href="#"
@@ -111,7 +136,37 @@
 			</ul>
 		</div>
 	</div>
-
+	<ul class="list-group selected" style="text-align: center">
+		<a href="#" class="list-group-item list-group-item-action list-group-item-warning">已选择课程</a>
+		<a href="#" class="list-group-item list-group-item-action list-group-item-primary">
+			<img class="delete" src="image/empty_fill.svg"></img>
+			<p style="margin: -3rem 0 0 0;">
+				周日(2月4日):18:20~19:30 
+			</p>
+			<p>
+				Manhattan Prep GRE reading comprehension & essays
+			</p>
+		</a>
+		<a href="#" class="list-group-item list-group-item-action list-group-item-primary">
+			<img class="delete" src="image/empty_fill.svg"></img>
+			<p style="margin: -3rem 0 0 0;">
+				周一(2月5日):18:20~19:30 
+			</p>
+			<p>
+				Manhattan Prep book of GRE Practice problems
+			</p>
+		</a>
+		<a href="#" class="list-group-item list-group-item-action list-group-item-primary">
+			<img class="delete" src="image/empty_fill.svg"></img>
+			<p style="margin: -3rem 0 0 0;">
+				周二(2月6日):18:20~19:30 
+			</p>
+			<p>
+				 新东方红皮书数学
+			</p>
+		</a>
+	</ul>
+</div>
 	<nav class="navbar fixed-bottom navbar-light bg-light"
 		style="height: 10%">
 		<!--<a class="navbar-brand" href="#"></a>-->
