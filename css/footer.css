@@ -3,6 +3,16 @@ div.icon{
     text-align: center;
     margin-top: 3%;
     float: left;
+    width: 27%;
+}
+div.icon.firstIcon{
+    margin-left: 8%;
+}
+div.icon.lastIcon{
+    margin-right: 8%;
+}
+#menuNav{
+    height: 10%;
 }
 img.iconImg{
     height: 60%;

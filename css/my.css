@@ -1,0 +1,13 @@
+div.myHead{
+    width: 100%;
+    box-shadow: 0.5rem 0.5rem 0.25rem lightgrey;
+    height: 25rem;
+}
+img.myHeadPicture{
+    width: 17rem;
+    height:17rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    border-radius: 17rem;
+    z-index: 1;
+}
