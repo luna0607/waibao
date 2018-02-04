@@ -1,0 +1,58 @@
+div.myProfileHead{
+    width: 100%;
+    /*box-shadow: 0.5rem 0.5rem 0.25rem lightgrey;*/
+    /*height: 30rem;*/
+    text-align: center;
+}
+img.myProfilePicture{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 18rem;
+    margin-top: 7rem;
+
+}
+div.myProfileHead h5{
+    font-size: 4rem;
+    line-height: 5rem;
+}
+img.back{
+    float: left;
+    width:5rem ;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+img.edit{
+    float: right;
+    width:5rem ;
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+
+div.myProfileTable{
+    font-size: 3rem;
+    line-height: 8rem;
+    margin-top: 2rem;
+}
+img.myProfileIcon{
+    width: 6rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+div.myProfileTable table tbody tr th{
+    width: 13rem;
+    line-height: 8rem;
+}
+div.myProfileTable table tbody tr td{
+    text-align: left;
+}
+div.myProfileTable table tbody tr td.name{
+    text-align: left;
+    font-size: 2.7rem;
+    font-family: "Microsoft YaHei UI";
+}
+div.myProfileTable table tbody tr td.content{
+    text-align: left;
+    font-size: 2.7rem;
+    font-style: italic;
+    font-family: "Microsoft YaHei UI Light";
+}
