@@ -15,12 +15,7 @@ div.myProfileHead h5{
     font-size: 4rem;
     line-height: 5rem;
 }
-img.back{
-    float: left;
-    width:5rem ;
-    margin-top: 3rem;
-    margin-left: 3rem;
-}
+
 img.edit{
     float: right;
     width:5rem ;

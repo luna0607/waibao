@@ -20,3 +20,10 @@ img.iconImg{
 span.iconName{
     font-size: 1.8rem;
 }
+
+img.back{
+    float: left;
+    width:5rem ;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
