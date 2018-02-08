@@ -1,0 +1,49 @@
+body{
+    font-family: "Microsoft YaHei UI Light", serif;
+}
+div.teacherProfileHead{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+img.teacherProfilePicture{
+    width: 19rem;
+    height: 19rem;
+    border-radius: 19rem;
+    margin-top: 10rem;
+}
+div.teacherProfileBody {
+    margin-top: -20rem;
+    margin-left: 30rem;
+    padding-bottom: 5rem;
+}
+div.teacherProfileBody h5{
+    font-size: 3.4rem;
+    line-height: 5rem;
+}
+div.teacherProfileBody p{
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    font-style: italic;
+    padding-right: 5rem;
+}
+div.teacherProfileBody p span.title{
+    font-family: "Microsoft YaHei UI";
+}
+
+
+
+div.teacherProfileAppointmentTable ul.nav{
+    width: 98%;
+    margin-left: 1%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+div.teacherProfileAppointmentTable ul.nav li.nav-item{
+    width: 14%;
+}
+div.teacherProfileAppointmentTable ul.nav li.nav-item a{
+    height: 9rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding-bottom: 1rem;
+}
